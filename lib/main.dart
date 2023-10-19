@@ -6,9 +6,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() async{
   await Supabase.initialize(
-    url: 'https://uqnnldrrqxhfmzsojjkg.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVxbm5sZHJycXhoZm16c29qamtnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTc0MTYyNjQsImV4cCI6MjAxMjk5MjI2NH0.aJkBWVBMLgOy2nMQflAxVzXPueC7WXG7nZNFW4MsP4A'
- 
+    url: 'YOUR SUPABASE PROJECT URL',
+    anonKey: 'YOUR SUPABASE ANNON KEY'
   );
   runApp(const MyApp());
 }
